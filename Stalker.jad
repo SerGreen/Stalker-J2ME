@@ -1,0 +1,8 @@
+MIDlet-Version: 1.0.1
+MIDlet-Icon: /sprite/stand_down.png
+MIDlet-Vendor: Midlet Suite Vendor
+MIDlet-Jar-URL: Stalker.jar
+MicroEdition-Configuration: CLDC-1.1
+MicroEdition-Profile: MIDP-2.0
+MIDlet-1: Stalker,/sprite/stand_down.png,Main
+MIDlet-Name: Stalker Midlet Suite
