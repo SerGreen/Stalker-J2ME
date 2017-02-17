@@ -3,7 +3,28 @@ __Very__ old J2ME game (for old cell phones), originally was a university projec
 Why is it called 'Stalker'? Well, that's how it was called in the uni task, so the name stuck.
 
 [View full animation __somewhere__](link_to_somewhere)  
-![[Stalker demo](link_to_small_gif)](link_to_somewhere)
+[![Stalker demo](link_to_small_gif)](link_to_somewhere)
+
+## About
+* Game is divided in levels.
+* Level is a labirinth with scattered coins and gems.
+* There are zombies walking in each level.
+* To pass a level you have to collect gems. The door will open after collecting all of them.
+* You can collect coins to spend them in the shop after each level.
+* You have couple weapons to fight zombies, but they have limited number of uses
+ * `Shotgun` — knock down a zombie at short range for some time. It will rise again after a while.
+ * `Sleep dart` — slow down a zombie at any range for the rest of the level.
+ * `Step mine` — explodes and kills everything in a short radius if stepped on it (including you, watch your step).
+ * You can switch weapons with `*`, `#` or `Right Soft Key`.
+ * You can use levers with `0`.
+* There's a boss after level 25.
+* There's a level editor. You can create your own levels.
+* You can change difficulty level in Options/About.
+* Levels are divided in 5 chapters by 5 levels each. You have to beat whole chapter in a row to unlock the next one.
+
+### Known issues
+* It's only for 320×240 displays.
+* In KEmulator Lite the game freezes when you open and close Options/About menu (with `*` from main menu) or if you try to save custom level in level editor. In real phone everything is fine AFAIK.
 
 ## Download
 You can download jar and jad files [here](link_to_release). Also i included J2ME emulator, that can run this game almost perfectly.
@@ -20,7 +41,8 @@ So here's the list of things needed in order to open and compile project:
 * [EclipseME](http://eclipseme.org/docs/installEclipseME.html) plugin  
   _After installation of the plugin go to Preferences and set paths to WTK root and antenna.jar_
 * ~~Fail to install [Oracle Java ME SDK Eclipse Plugin](http://docs.oracle.com/javame/config/cldc/rel/3.3/win/gs/html/getstart_win32/setup_eclipseenv.htm) because download link on Oracle site is dead. Apparently, you will be fine without it.~~
-* [MIDP 2.1 jar](http://www.java2s.com/Code/Jar/m/Downloadmidp21jar.htm) (I included it right into the project in the lib directory, so there's no need to download it. Mentioned it just in case.)
+* [MIDP 2.1 jar](http://www.java2s.com/Code/Jar/m/Downloadmidp21jar.htm)  
+  _I included it right into the project in the lib directory, so there's no need to download it. Mentioned it just in case._
 * Now go to Preferences > J2ME > Device Management > Import > Browse > _Select WTK directory_ > Refresh > Select All > Finish
 * Now go to Preferences > J2ME > Preverification > Select 'Use JAD file setting'
 * If it says that it can't resolve some imports like `java.util.*` or `javax.microedition.*`, make sure that JRE and MIDP 2.1 are linked in Build Path Configuration > Libraries.
