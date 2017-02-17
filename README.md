@@ -41,8 +41,7 @@ So here's the list of things needed in order to open and compile project:
 * [EclipseME](http://eclipseme.org/docs/installEclipseME.html) plugin  
   _After installation of the plugin go to Preferences and set paths to WTK root and antenna.jar_
 * ~~Fail to install [Oracle Java ME SDK Eclipse Plugin](http://docs.oracle.com/javame/config/cldc/rel/3.3/win/gs/html/getstart_win32/setup_eclipseenv.htm) because download link on Oracle site is dead. Apparently, you will be fine without it.~~
-* [MIDP 2.1 jar](http://www.java2s.com/Code/Jar/m/Downloadmidp21jar.htm)  
-  _I included it right into the project in the lib directory, so there's no need to download it. Mentioned it just in case._
+* [MIDP 2.1 jar](http://www.java2s.com/Code/Jar/m/Downloadmidp21jar.htm) (I included it right into the project in the lib directory, so there's no need to download it. Mentioned it just in case.)
 * Now go to Preferences > J2ME > Device Management > Import > Browse > _Select WTK directory_ > Refresh > Select All > Finish
 * Now go to Preferences > J2ME > Preverification > Select 'Use JAD file setting'
 * If it says that it can't resolve some imports like `java.util.*` or `javax.microedition.*`, make sure that JRE and MIDP 2.1 are linked in Build Path Configuration > Libraries.
