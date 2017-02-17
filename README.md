@@ -2,8 +2,7 @@
 __Very__ old J2ME game (for old cell phones), originally was a university project, then evolved into full game.  
 Why is it called 'Stalker'? Well, that's how it was called in the uni task, so the name stuck.
 
-[View full animation on Gfycat](https://gfycat.com/UnfortunateTallDonkey)  
-[![Stalker demo](https://media.giphy.com/media/l3q2MJ8lAOmRIsVXi/source.gif)](https://gfycat.com/UnfortunateTallDonkey)
+![Stalker demo](https://media.giphy.com/media/l3q2MJ8lAOmRIsVXi/source.gif)
 
 ## About
 * Game is divided in levels.
