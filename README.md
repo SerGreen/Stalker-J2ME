@@ -27,7 +27,7 @@ Why is it called 'Stalker'? Well, that's how it was called in the uni task, so t
 * In KEmulator Lite the game freezes when you open and close Options/About menu (with `*` from main menu) or if you try to save custom level in level editor. In real phone everything is fine AFAIK.
 
 ## Download
-You can download jar and jad files [here](link_to_release). Also i included J2ME emulator, that can run this game almost perfectly.
+You can download jar and jad files [here](https://github.com/SerGreen/Stalker-J2ME/releases/latest). Also i included J2ME emulator, that can run this game almost perfectly.
 
 ## How to open source project
 Note for my future self or anyone interested.  
@@ -47,4 +47,4 @@ So here's the list of things needed in order to open and compile project:
 * If it says that it can't resolve some imports like `java.util.*` or `javax.microedition.*`, make sure that JRE and MIDP 2.1 are linked in Build Path Configuration > Libraries.
 * Finally, create Run Configuration as Wireless Toolkit Emulator
 
-Now you should be able to launch it. However there're problems with this emulator: it will throw OutOfMemory if you open Options/About screen and highly possible after completing a level too. But you will get compiled jar + jad files in 'deployed' folder. You can now launch game with any other emulator (like KEmulator i attached to [release](link_to_release)) or even upload it to your good old Nokia.
+Now you should be able to launch it. However there're problems with this emulator: it will throw OutOfMemory if you open Options/About screen and highly possible after completing a level too. But you will get compiled jar + jad files in 'deployed' folder. You can now launch game with any other emulator (like KEmulator i attached to [release](https://github.com/SerGreen/Stalker-J2ME/releases/latest)) or even upload it to your good old Nokia.
